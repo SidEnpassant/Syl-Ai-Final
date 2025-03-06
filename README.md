@@ -1,16 +1,55 @@
-# sylai2
+📚 Syl-Ai: AI-Powered Academic Assistant
 
-A new Flutter project.
+🚀 Syl-Ai is a cutting-edge AI-powered mobile app designed to help students optimize their learning process. From extracting syllabus content from PDFs to finding the best learning materials and providing AI-driven academic assistance, Syl-Ai simplifies the study experience.
 
-## Getting Started
+🎯 Features
+✅ Syllabus Extraction – Upload your academic syllabus as a PDF, and AI extracts structured syllabus content.\n
+✅ AI-Powered Search for Learning Materials – Finds YouTube lectures, free PDF books, and web study materials based on the syllabus.
+✅ AI Chatbot – Ask questions and receive AI-generated responses related to your syllabus.
+✅ Modern Flutter UI – Sleek, minimalistic dark-themed design.
+✅ Backend with Supabase – Ensures seamless database management and authentication.
+✅ AdMob Integration – Enables monetization while keeping the app free for users.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🛠️ Tech Stack
+Component	Technology Used
+Frontend -	Flutter
+Backend	- Supabase
+AI Models	Groq's llama-3.3-70b-versatile & llama-3.1-8b-instant
+Authentication - Supabase Auth
+Monetization - Google AdMob
+State Management - Provider
+
+
+
+
+🛠️ Installation & Setup
+Prerequisites
+Flutter SDK installed (Download here)
+Supabase account & project (Sign up)
+Groq API Key for AI Agents
+
+
+
+Clone the Repository
+```bash
+git clone https://github.com/SidEnpassant/Syl-Ai
+```
+
+Install Dependencies
+```bash
+flutter pub get
+```
+
+Set Up Supabase
+Create a Supabase project.
+Set up authentication and database tables.
+Add the Supabase API URL and anon key in lib/AppConstants.dart.
+
+
+Run the App
+```bash
+flutter run
+```
