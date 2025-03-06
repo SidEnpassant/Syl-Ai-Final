@@ -7,7 +7,7 @@
         <!-- ✅ Correct Placement of AdMob App ID -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-2744427800909159~1422110495"/>
+            android:value="YOUR-ADD-MOBID"/>
         
         <activity
             android:name=".MainActivity"
